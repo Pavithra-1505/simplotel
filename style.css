@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(to bottom right,#f0f071,#dd6d7f);
+    margin-bottom: 100px;
+}
+
+.navbar{
+    height:50px;
+    width: auto;
+    background-color: rgb(231, 57, 57);
+}
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.navbar-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.navbar-menu li{
+    margin: 10px 40px;
+}
+.navbar-menu img{
+    width: 30px;
+    height: 30px;
+}
+.banner-section{
+    display: flex;
+    
+}
+.info-section{
+    width: 50%;
+    height: 90vh;
+
+    margin-top: 50px;
+}
+.info-section h1{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.info-section p{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 100px;
+}
+.info-section button{
+    margin-top: 50px;
+    border-width: 0;
+    height: 50px;
+    width: 200px;
+    background-color: #e73939;
+    color: white;
+    margin-left: 100px;
+}
+.img-section{
+    width: 50%;
+}
+
+.img-section img{
+    height: 90vh;
+    width: 100%;
+    
+}
+.layout{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+#img1{
+    height: 200px;
+    width: 200px;
+}
+#img2{
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+}
+#img3{
+    height: 410px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+/*section 1*/
+.section-1{
+    display: flex;
+}
+.info-section1{
+    background-color: #e73939;
+    height: 200px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 200px;
+    padding: 20px;
+}
+.info-section1 h1{
+    letter-spacing: 10px;
+}
+.click{
+    display: flex;
+    
+}
+.click img{
+margin-left: 10px;
+}
+.click p{
+    margin-top: 5px;
+}
+@media screen and (max-width: 992px){
+    .navbar-menu a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    .navbar-menu li{
+        margin: 10px 20px;
+    }
+    .navbar-menu img{
+        width: 20px;
+        height: 20px;
+    }
+    .banner-section{
+        display: flex;
+        
+    }    
+    .info-section{
+        margin-top: 0;
+        width: 50%;
+        height: 50vh;
+    }
+    .info-section h1{
+        margin-top: 5px;
+        padding-left: 50px;
+        font-size: 20px;
+    }
+    .info-section p{
+        margin-top: 20px;
+        width: 80%;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .info-section button{
+        margin-top: 20px;
+        border-width: 0;
+        height: 30px;
+        width: 100px;
+        background-color: #e73939;
+        color: white;
+        margin-left: 50px;
+    }
+    .img-section{
+        width: 50%;
+    }
+    
+    .img-section img{
+        height: 50vh;
+        width: 100%;
+        
+    }    
+    .layout{
+        display: flex;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    #img1{
+        height: 150px;
+        width: 150px;
+    }
+    #img2{
+        margin-top: 5px;
+        height: 150px;
+        width: 150px;
+    }
+    #img3{
+        height: 310px;
+        width: 200px;
+        margin-left: 10px;
+    }
+    
+    
+    .section-1{
+        display: flex;
+    }
+    .info-section1{
+        background-color: #e73939;
+        height: 150px;
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 100px;
+        padding: 10px;
+    }
+    .info-section1 h1{
+        letter-spacing: 10px;
+        font-size: 15px;
+    }
+    .info-section1 p{
+    
+        font-size: 10px;
+    }
+    .click{
+        display: flex;
+        
+    }
+    .click img{
+    margin-left: 10px;
+    }
+    .click p{
+        margin-top: 5px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .navbar-menu a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .navbar-menu li{
+        margin: 10px 10px;
+    }
+    .navbar-menu img{
+        width: 10px;
+        height: 10px;
+    }
+    .banner-section{
+        display: flex;
+        
+    }    
+    .info-section{
+        margin-top: 0;
+        width: 50%;
+        height: 50vh;
+    }
+    .info-section h1{
+        margin-top: 3px;
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    .info-section p{
+        margin-top: 10px;
+        width: 70%;
+        margin-left: 30px;
+        font-size: 10px;
+    }
+    .info-section button{
+        margin-top: 20px;
+        border-width: 0;
+        height: 20px;
+        width: 60px;
+        background-color: #e73939;
+        color: white;
+        margin-left: 30px;
+    }
+    .img-section{
+        width: 50%;
+    }
+    
+    .img-section img{
+        height: 40vh;
+        width: 100%;
+        
+    }    
+    .layout{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    #img1{
+        height: 70px;
+        width: 70px;
+    }
+    #img2{
+        margin-top: 5px;
+        height: 70px;
+        width: 70px;
+    }
+    #img3{
+        height: 150px;
+        width: 100px;
+        margin-left: 5px;
+    }
+    
+    /*section 1*/
+    .section-1{
+        display: flex;
+    }
+    .info-section1{
+        background-color: #e73939;
+        height: 100px;
+        width: 130px;
+        margin-left: 30px;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .info-section1 h1{
+        letter-spacing: 5px;
+        font-size: 7px;
+    }
+    .info-section1 p{
+        
+        font-size: 7px;
+    }
+    .click{
+        display: flex;
+        
+    }
+    .click img{
+    margin-left: 10px;
+    width: 20px;
+    }
+    .click p{
+        margin-top: 2px;
+    }
+        
+}
+
